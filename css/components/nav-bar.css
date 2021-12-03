@@ -12,4 +12,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   height: 2vh;
   padding-bottom: 8px;
+  transition: 0.3s;
+}
+.nav__link img:hover {
+  height: 2.2vh;
 }

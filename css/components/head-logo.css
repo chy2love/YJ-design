@@ -11,4 +11,8 @@
 
 .main-logo img {
   height: 5vh;
+  transition: 0.2s;
+}
+.main-logo img:hover {
+  height: 5.2vh;
 }
