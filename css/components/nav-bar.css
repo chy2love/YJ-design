@@ -1,6 +1,6 @@
 .nav {
   position: fixed;
-  top: 7vh;
+  top: 10vh;
   width: 100%;
 }
 .nav__ul {
@@ -9,9 +9,10 @@
 }
 
 .nav__link img {
+  border-top: 1px solid rgba(0,0,0,0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   height: 2vh;
-  padding-bottom: 8px;
+  padding: 8px 0px;
   transition: 0.3s;
 }
 .nav__link img:hover {
