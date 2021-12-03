@@ -1,0 +1,15 @@
+.nav {
+  position: fixed;
+  top: 7vh;
+  width: 100%;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__link img {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  height: 2vh;
+  padding-bottom: 8px;
+}
