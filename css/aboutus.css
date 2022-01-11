@@ -1,18 +1,26 @@
+/*
 .aboutus {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
 .aboutus__column {
-  margin: 0px 10vh;
+  margin: 0px 8vh;
   display: flex;
   flex-direction: column;
 }
 .aboutus__column img {
   height: 60vh;
+  padding-right: 10vh;
 }
-.aboutus__column span {
+.aboutus__text {
   display: flex;
   margin-top: 1vh;
   font-size: 20px;
+  padding-left: 10vh;
+}
+*/
+
+.aboutus_img {
+  height: 80vh;
 }
