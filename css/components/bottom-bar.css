@@ -14,7 +14,7 @@
 }
 .bottom-bar__column span {
   margin-bottom: 4px;
-  font-size: 12px;
-  font-style: initial;
-  font-weight: 500;
+  font-size: 13px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
 }

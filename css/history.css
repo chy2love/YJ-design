@@ -12,6 +12,5 @@
   font-size: 15px;
 }
 .history__column {
-  margin-left: 20px;
-  border-right: lightsteelblue;
+  padding-left: 25px;
 }
