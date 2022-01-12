@@ -9,8 +9,10 @@
   line-height: 32px;
   font-weight: 600;
   color: darkslategrey;
-  font-size: 15px;
+  font-size: 13px;
 }
 .history__column {
-  padding-left: 25px;
+  margin-left: 15px;
+  padding-left: 15px;
+  width: 25%;
 }
