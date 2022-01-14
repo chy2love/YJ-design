@@ -16,3 +16,9 @@
   padding-left: 15px;
   width: 25%;
 }
+
+.history {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,26 +1,33 @@
 /*
-.aboutus {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+.aboutus_img {
+  height: 80vh;
 }
-.aboutus__column {
-  margin: 0px 8vh;
+*/
+.aboutus {
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
-.aboutus__column img {
-  height: 60vh;
-  padding-right: 10vh;
-}
-.aboutus__text {
+.aboutus__column {
   display: flex;
-  margin-top: 1vh;
-  font-size: 20px;
-  padding-left: 10vh;
+  margin: 3vh 0;
 }
-*/
-
-.aboutus_img {
-  height: 80vh;
+.aboutus__first img {
+  height: 50.5vh;
+  padding-right: 5vh;
+  margin-left: 7vh;
+}
+.aboutus__first p {
+  line-height: 40px;
+  font-weight: 600;
+  color: darkslategrey;
+  font-size: 18px;
+  padding-left: 5vh;
+}
+.aboutus__column:nth-child(2) p {
+  line-height: 40px;
+  font-weight: 600;
+  color: darkslategrey;
+  font-size: 18px;
+  padding: 0 5vh;
 }
