@@ -6,11 +6,11 @@
 @import "components/home-img.css";
 @import "aboutus.css";
 @import "history.css";
+@import "portfolio.css";
 /*screen*/
 
 body {
   box-sizing: border-box;
-
   font-family: -apple-system, BlinkMacSystemFont, "맑은 고딕", "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -19,7 +19,7 @@ body {
   display: flex;
   width: 100%;
   margin: 0;
-  padding: 0;
-  margin-top: 20vh;
+  margin-top: 17vh;
   justify-content: space-evenly;
+  background-color: whitesmoke;
 }
