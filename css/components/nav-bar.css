@@ -20,3 +20,8 @@
 .nav__link img:hover {
   height: 2.2vh;
 }
+.top_btn {
+  position: fixed;
+  bottom: 18vh;
+  right: 10vh;
+}

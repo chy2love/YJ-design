@@ -7,6 +7,7 @@
 @import "aboutus.css";
 @import "history.css";
 @import "portfolio.css";
+@import "components/portpage.css";
 /*screen*/
 
 body {
