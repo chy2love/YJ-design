@@ -4,6 +4,7 @@
 @import "components/nav-bar.css";
 @import "components/bottom-bar.css";
 @import "components/home-img.css";
+@import "index.css";
 @import "aboutus.css";
 @import "history.css";
 @import "portfolio.css";
@@ -21,7 +22,7 @@ body {
   display: flex;
   width: 100%;
   margin: 0;
-  margin-top: 17vh;
+  margin-top: 19vh;
   justify-content: space-evenly;
   background-color: white;
 }
