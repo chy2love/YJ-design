@@ -1,15 +1,15 @@
 .history__year {
   line-height: 45px;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: bold;
 
   margin-bottom: 30px;
 }
 .history__content {
   line-height: 32px;
-  font-weight: 600;
+  font-weight: 400;
   color: darkslategrey;
-  font-size: 13px;
+  font-size: 15px;
 }
 .history__column {
   margin-left: 15px;
@@ -18,7 +18,7 @@
 }
 
 .history {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
 }

@@ -1,3 +1,28 @@
 .home__img {
-  width: 95%;
+  width: 100%;
+}
+
+.main {
+  position: fixed;
+  top: 41.5vh;
+  left: 40vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 22vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.main__text:first-child {
+  display: block;
+}
+.main__text {
+  font-size: 30px;
+  margin: 9px 0;
+  color: white;
+}
+.main__logo {
+  height: 35px;
 }
