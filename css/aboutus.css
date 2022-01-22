@@ -19,14 +19,14 @@
 }
 .aboutus__first p {
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 600;
   color: darkslategrey;
   font-size: 18px;
   padding-left: 5vh;
 }
 .aboutus__column:nth-child(2) p {
   line-height: 40px;
-  font-weight: 400;
+  font-weight: 600;
   color: darkslategrey;
   font-size: 18px;
   padding: 0 5vh;

@@ -1,3 +1,11 @@
+@keyframes texting {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
 .home__img {
   width: 100%;
 }
@@ -6,7 +14,10 @@
   position: fixed;
   top: 41.5vh;
   left: 40vh;
+
+  /*
   background-color: rgba(0, 0, 0, 0.3);
+  */
   height: 22vh;
   width: 40vh;
   display: flex;
@@ -17,12 +28,35 @@
 }
 .main__text:first-child {
   display: block;
-}
-.main__text {
-  font-size: 30px;
-  margin: 9px 0;
-  color: white;
+  width: 100%;
+  text-align: center;
+  opacity: 100%;
+  animation: texting 0.8s;
 }
 .main__logo {
-  height: 35px;
+  height: 33px;
+  margin: 0 18px;
+  animation-name: texting;
+  animation-duration: 0.8s;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+}
+.main__text:last-child {
+  animation-name: texting;
+  animation-duration: 0.8s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+}
+.main__text {
+  font-size: 32px;
+  margin: 9px 0;
+  text-shadow: 1px 1px 1px rgb(46, 46, 46);
+  color: rgb(141, 141, 141);
+  font-family: "BMHANNAPro";
+}
+.main__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }

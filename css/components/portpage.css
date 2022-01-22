@@ -8,16 +8,16 @@
   line-height: 50px;
   display: flex;
   flex-direction: column;
-  font-weight: 400;
+  font-weight: 600;
   color: darkslategrey;
 }
 .portpage__list {
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.3s;
   line-height: 50px;
 }
 .portpage__list:hover {
-  font-size: 20px;
+  font-size: 17px;
   color: rgb(55, 55, 126);
 }
 .portpage__column:last-child img {
@@ -30,6 +30,6 @@
   margin-right: 40vh;
   text-align: center;
   color: darkslategrey;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
 }

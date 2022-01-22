@@ -1,13 +1,13 @@
 .history__year {
   line-height: 45px;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bolder;
 
   margin-bottom: 30px;
 }
 .history__content {
   line-height: 32px;
-  font-weight: 400;
+  font-weight: 600;
   color: darkslategrey;
   font-size: 15px;
 }
