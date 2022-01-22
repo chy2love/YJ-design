@@ -35,16 +35,16 @@
 }
 .main__logo {
   height: 33px;
-  margin: 0 16px;
+  margin: 0 13px;
   animation-name: texting;
-  animation-duration: 1s;
-  animation-delay: 0.8s;
+  animation-duration: 1.3s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 .main__text:last-child {
   animation-name: texting;
-  animation-duration: 1s;
-  animation-delay: 0.8s;
+  animation-duration: 1.3s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 .main__text {
