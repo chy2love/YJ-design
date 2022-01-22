@@ -31,27 +31,26 @@
   width: 100%;
   text-align: center;
   opacity: 100%;
-  animation: texting 0.8s;
+  animation: texting 1s;
 }
 .main__logo {
   height: 33px;
-  margin: 0 18px;
+  margin: 0 16px;
   animation-name: texting;
-  animation-duration: 0.8s;
-  animation-delay: 0.7s;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
   animation-fill-mode: backwards;
 }
 .main__text:last-child {
   animation-name: texting;
-  animation-duration: 0.8s;
-  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
   animation-fill-mode: backwards;
 }
 .main__text {
   font-size: 32px;
   margin: 9px 0;
-  text-shadow: 1px 1px 1px rgb(46, 46, 46);
-  color: rgb(141, 141, 141);
+  color: rgb(59, 59, 59);
   font-family: "BMHANNAPro";
 }
 .main__line {
